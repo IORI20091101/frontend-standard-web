@@ -1,0 +1,11 @@
+# ignore output folder
+output
+
+# ignore node_moduels
+node_modules
+
+static/lib/*
+
+.DS_Store
+
+.idea/*
