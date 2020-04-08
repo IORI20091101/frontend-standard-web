@@ -4,7 +4,7 @@ output
 # ignore node_moduels
 node_modules
 
-static/lib/*
+static/lib/**
 
 .DS_Store
 
