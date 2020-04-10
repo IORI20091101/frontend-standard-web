@@ -4,8 +4,12 @@ output
 # ignore node_moduels
 node_modules
 
-static/lib/**
+vendor/lib/*
 
 .DS_Store
 
 .idea/*
+
+dist/*
+
+output

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>require.js</title>
+    <link rel="stylesheet" type="text/css" href="./assets/styles/index.css"/>
+    
+</head>
+<body>
+    <p> Hello, World. </p>
+    <button id="btn">load async js</button>
+
+    <div class="bg"></div>
+
+    <script type="text/javascript" src="./vendor/lib/requirejs/require.js"></script>
+    <script type="text/javascript">
+         require(['./assets/scripts/a.js'], function() {
+          var btn = document.getElementById('btn');
+          var handler = function() {
+            require(['./assets/scripts/b.js']);
+          };
+
+          if (btn.addEventListener) {
+            btn.addEventListener('click', handler);
+          } else {
+            btn.attachEvent('click', handler);
+          }
+        });
+    </script>
+</body>
+</html>

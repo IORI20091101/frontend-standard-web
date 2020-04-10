@@ -1,0 +1,24 @@
+{
+  "name": "frontend-standard-web",
+  "homepage": "https://github.com/IORI20091101/frontend-standard-web",
+  "authors": [
+    "sundongzhi <sundongzhi@gozap.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "backbone": "https://github.com/jashkenas/backbone.git#^1.4.0",
+    "requirejs": "^2.3.6",
+    "underscore": "^1.10.2"
+  }
+}

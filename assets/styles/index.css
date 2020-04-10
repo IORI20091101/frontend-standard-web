@@ -1,0 +1,20 @@
+body {
+    background-color: aqua;
+}
+
+.bg {
+    width: 500px;
+    height: 500px;
+    background-image: url('../images/book.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* li.list-1::before {
+    background-image: url('./img/list-1.png?__sprite');
+  }
+  
+  li.list-2::before {
+    background-image: url('./img/list-2.png?__sprite');
+  } */
+  
